@@ -1,5 +1,6 @@
 <h1>About</h1>
-<p>cmsite: use <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> as submodule</p><h1>Brython</h1>
+<p>cmsite: wcms use <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> as submodule</p>
+<h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
@@ -276,6 +277,83 @@ doc["aitetris"].bind("click", aitetris.do)
 <p></p>
 <p><!-- 程式執行 ouput 區 --></p>
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
+<div style="width: 100%; height: 100%;"></div>
+<div style="width: 100%; height: 100%;">
+<p></p>
+<h1>每周進度</h1>
+<h2>w1</h2>
+<p></p>
+<p></p>
+<p>中秋放假</p><h2>w2</h2>
+<p>簡單說明有關課程的相關規劃與期程安排</p><h2>w3</h2>
+<p><span data-contrast="none"><span>創建 replit (雲端動態網站)</span></span><span> </span></p>
+<p><span data-contrast="none"><span> Onedrive (需要 5TB 儲存資料, Teams 與 Meet 上課)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>Onshape (可以在平板與手機上繪製或檢視零組件)</span></span><span></span></p>
+<p><span data-contrast="none"><span>登入<span></span></span></span>mail2000</p>
+<p><span data-contrast="none"><span>下載以下3個程式</span></span></p>
+<p><span data-contrast="none"><span>NX2027.3401_lite</span></span></p>
+<p><span data-contrast="none"><span></span></span><span>portable_python_3.10.6</span></p>
+<p><span data-contrast="none"><span></span></span><span>CoppeliaSimEdu_4.3.0_rev12</span></p>
+<p><br/><span> </span></p><h2>w4</h2>
+<p>登入Replit</p>
+<p><span data-contrast="auto"><span>在 Replit 執行動態網站:</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>必須進入 Shell, 在倉儲根目錄執行下列兩則指令 (取下子模組內容, 並安裝執行所需模組).</span></span><span> </span></p>
+<p><span data-contrast="none"><span>git submodule update --init --recursive</span></span><span> </span></p>
+<p><span data-contrast="none"><span>pip install   flask flask_cors bs4 lxml pelican markdown gevent</span></span><span> </span></p>
+<p><span> </span></p><h2>w5</h2>
+<ol style="font-weight: 400;">
+<li data-aria-level="2" data-aria-posinset="1"><span data-contrast="auto"><span>Login to </span></span><a href="https://mail.nfu.edu.tw/"><span data-contrast="auto"><span>https://mail.nfu.edu.tw</span></span></a><span data-contrast="auto"><span>  -  查看登入 stud.cycu.org 伺服器的帳號密碼, 帳號為 cad+學號, 密碼為四個字元, 包括數字與小寫英文字母</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="2"><span data-contrast="auto"><span>請到 excel 檔案 </span></span><a href="https://nfuedu-my.sharepoint.com/:x:/g/personal/yen_nfu_edu_tw/ET-JZNPkNtZDhFiLt8BGZZ4BFMVV1HE73WQt1V44y6vnCQ"><span data-contrast="auto"><span>查詢</span></span></a><span data-contrast="auto"><span> stud.cycu.org 中與帳號對應的近端 (給 127.0.0.1 使用, 9 開頭的 port) 與遠端 (給 stud.cycu.org, 8 開頭的 port) 埠號</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="3"><span data-contrast="auto"><span>修改可攜 Python 3.10.6 start.bat, 蓋掉第三行後重新啟動, 目的希望將操作系統的命令搜尋路徑放在可攜目錄搜尋路徑之後.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="4"><span data-contrast="auto"><span>重新啟動可攜程式環境, 在其中一個命令列, ssh  </span></span><a href="mailto:cad+%E5%AD%B8%E8%99%9F@stud.cycu.org"><span data-contrast="auto"><span>cad+學號@stud.cycu.org</span></span></a><span data-contrast="auto"><span>, 表示要使用 secure shell 遠端登入到 stud.cycu.org, 這是一台 Linux 主機, 安裝 Ubuntu 22.04 Server.(若使用的網路連線協定並無 IPv6,  可將系統的 proxy 設為 140.130.17.4:3128 kmolab/kmolab)</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="5"><span data-contrast="auto"><span>在 ssh 登入畫面, 以 ssh-keygen 建立 key pairs, .ssh/id_rsa 為 private key, id_rsa.pub 為 public key</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="6"><span data-contrast="auto"><span>設法利用 Filezilla, 以 sftp 安全的(Secure)檔案(File)傳輸(Transmission)協定(Protocol), 與 stud.cycu.org 伺服器連結.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="7"><span data-contrast="auto"><span>利用  Filezilla sftp 取下 id_rsa.pub, 登錄至 Github 帳號下的 Setting - &gt;  SSH and GPG keys.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="8"><span data-contrast="auto"><span>對  server sftp 也可以利用  </span></span><a href="https://portableapps.com/apps/internet/filezilla_portable"><span data-contrast="auto"><span>Filezilla portable</span></span></a><span data-contrast="auto"><span>, 以圖形介面完成. 而 ssh 也可以透過  putty.exe 執行遠端登入.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="9"><span data-contrast="auto"><span>接下來要下載  </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EQlQii99WuZEl2_6YB_WK28BgZ3sBCVZnmLjLFJS5kXuPQ?e=0i7OKP"><span data-contrast="auto"><span>config</span></span></a><span data-contrast="auto"><span> 設定檔案,  以 sftp 放入 stud.cycu.org 主機的 .ssh 目錄中.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="10"><span data-contrast="auto"><span>接下來要在  Ubuntu (也就是 stud.cycu.org 這台主機所安裝的操作系統) 中, 設定 .gitconfig, 總共包含三項設定: git config --global user.name "scrum-1", git config --global user.email  "scrum1@mde.tw"   以及 git config --global http.proxy http://p42.cycu.org:3128, 這三個設定必須在 ssh 登入畫面中執行, 設定完成檔案會存入帳號根目錄中的 .gitconfig</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="11"><span data-contrast="auto"><span>利用  git clone --recurse-submodules  </span></span><a href="mailto:git@demo:mdecad2022/site-scrum-1.git"><span data-contrast="auto"><span>git@demo:mdecad2022/site-scrum-1.git</span></span></a><span data-contrast="auto"><span>  demo</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="12"><span data-contrast="auto"><span>接著下載 </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span>server.py</span></span></a><span data-contrast="auto"><span>, 在 Windows 編輯 </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span>server.py</span></span></a><span data-contrast="auto"><span>, 將個人分配到的 9xxxx 埠號填入後存檔, 以 sftp 放入上列取下的倉儲根目錄.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="13"><span data-contrast="auto"><span>登入  Ubuntu 後, 會使用的指令: pwd 代表 print working directory, clear -  清除螢幕, cd - 更換目錄, ls -l 列出目錄詳細內容, chmod u+x </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EZn5-jIdQ3pMmi_QxSVWWoYBHvcEtgUrAGCPiIlPyDQ6sw?e=9mc7rR"><span data-contrast="auto"><span>acp</span></span></a><span data-contrast="auto"><span> 表示讓 user 可以 execute acp script (能夠讓使用者以 source acp 加上提交字串進行 git add, git commit, git push, 如何在 Windows 執行 acp.bat 加上提交字串.</span></span><span> </span></li>
+</ol><h2>w6</h2>
+<p>步驟簡述</p>
+<p><span data-contrast="auto"><span>git config --global http.proxy </span></span><span data-contrast="auto"><span>http://p42.cycu.org:3128</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>git config --global user.name "name"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>git config --global user.email "email"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>打完會產生.gitconfig<br/></span></span></p>
+<p><span data-contrast="auto"><span>git clone --recurse-submodules git@demo:mdecad2022/site-github_帳號.git s</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> 會產生site-學號<br/></span></p>
+<p><span data-contrast="auto"><span>git submodule update --init --recursive</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span><br/></span></p>
+<p><span data-contrast="auto"><span>acp 放入倉儲後</span></span><span> <br/></span></p>
+<p><span data-contrast="auto"><span>chmod u+x acp </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>才可以執行acp<br/></span></span></p>
+<p><span data-contrast="auto"><span>source acp "提交說明字串"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span>上傳指令</p>
+<p></p>
+<p>下載server.py和config 放入倉儲(server.py要改成自己的<span class="TextRun BCX9 SCXO196160310" data-contrast="auto" lang="ZH-TW" style="accent-color: auto; place-content: normal; place-items: normal; place-self: auto; alignment-baseline: auto; animation: 0s ease 0s 1 normal none running none; app-region: none; appearance: none; aspect-ratio: auto; backdrop-filter: none; backface-visibility: visible; background: none 0% 0% / auto auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); background-blend-mode: normal; baseline-shift: 0px; border-image: none 100% / 1 / 0 stretch; border-collapse: separate; border-end-end-radius: 0px; border-end-start-radius: 0px; border-spacing: 0px; border-start-end-radius: 0px; border-start-start-radius: 0px; border-radius: 0px; inset: auto; box-shadow: none; box-sizing: content-box; break-after: auto; break-before: auto; break-inside: auto; buffered-rendering: auto; caption-side: top; caret-color: #000000; clear: none; clip: auto; clip-path: none; clip-rule: nonzero; color: #000000; color-interpolation: srgb; color-interpolation-filters: linearrgb; color-rendering: auto; color-scheme: normal; columns: auto auto; column-fill: balance; gap: normal; column-rule: 0px none #000000; column-span: none; contain: none; contain-intrinsic-block-size: auto; contain-intrinsic-size: auto; contain-intrinsic-inline-size: auto; content: normal; content-visibility: visible; counter-increment: none; counter-reset: none; counter-set: none; cursor: text; cx: 0px; cy: 0px; d: none; direction: ltr; display: inline; dominant-baseline: auto; empty-cells: show; fill: #000000; fill-opacity: 1; fill-rule: nonzero; filter: none; flex: 0 1 auto; flex-flow: row nowrap; float: none; flood-color: #000000; flood-opacity: 1; font-family: WordVisi_MSFontService, PMingLiU, serif; font-feature-settings: normal; font-kerning: none; font-optical-sizing: auto; font-size: 14.6667px; font-stretch: 100%; font-style: normal; font-variant: no-common-ligatures no-discretionary-ligatures no-historical-ligatures no-contextual; font-variation-settings: normal; font-weight: 400; grid-area: auto / auto / auto / auto; grid-auto-columns: auto; grid-auto-flow: row; grid-auto-rows: auto; grid-template-areas: none; grid-template-columns: none; grid-template-rows: none; height: auto; hyphens: manual; image-orientation: from-image; image-rendering: auto; inline-size: auto; inset-block: auto; inset-inline: auto; isolation: auto; letter-spacing: normal; lighting-color: #ffffff; line-break: auto; line-height: 18px; list-style: outside none decimal; margin: 0px; marker: none; mask: none; mask-type: luminance; max-height: none; max-width: none; min-height: 0px; min-width: 0px; mix-blend-mode: normal; object-fit: fill; object-position: 50% 50%; offset: none 0px auto 0deg; opacity: 1; order: 0; orphans: 2; outline: #000000 none 0px; outline-offset: 0px; overflow: visible; overflow-anchor: auto; overflow-clip-margin: 0px; overflow-wrap: break-word; overscroll-behavior-block: auto; overscroll-behavior-inline: auto; overscroll-behavior: auto; padding: 0px; page: auto; paint-order: normal; perspective: none; perspective-origin: 0px 0px; pointer-events: none; position: static; quotes: auto; r: 0px; resize: none; ruby-position: over; rx: auto; ry: auto; scroll-behavior: auto; scroll-margin-block: 0px; scroll-margin: 0px; scroll-margin-inline: 0px; scroll-padding-block: auto; scroll-padding: auto; scroll-padding-inline: auto; scroll-snap-align: none; scroll-snap-stop: normal; scroll-snap-type: none; scrollbar-gutter: auto; shape-image-threshold: 0; shape-margin: 0px; shape-outside: none; shape-rendering: auto; speak: normal; stop-color: #000000; stop-opacity: 1; stroke: none; stroke-dasharray: none; stroke-dashoffset: 0px; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1px; tab-size: 8; table-layout: auto; text-align: left; text-align-last: auto; text-anchor: start; text-combine-upright: none; text-decoration: none solid #000000; text-decoration-skip-ink: auto; text-indent: 0px; text-orientation: mixed; text-overflow: clip; text-rendering: auto; text-shadow: none; text-size-adjust: auto; text-transform: none; text-underline-offset: auto; text-underline-position: auto; touch-action: auto; transform: none; transform-box: view-box; transform-origin: 0px 0px; transform-style: flat; transition: all 0s ease 0s; unicode-bidi: normal; user-select: text; vector-effect: none; vertical-align: baseline; visibility: visible; border-block-end: 0px none #000000; border-block-start: 0px none #000000; border-inline-end: 0px none #000000; -webkit-border-image: none; border-inline-start: 0px none #000000; -webkit-box-align: stretch; -webkit-box-decoration-break: slice; -webkit-box-direction: normal; -webkit-box-flex: 0; -webkit-box-ordinal-group: 1; -webkit-box-orient: horizontal; -webkit-box-pack: start; -webkit-font-smoothing: auto; -webkit-highlight: none; -webkit-hyphenate-character: auto; -webkit-line-break: auto; -webkit-locale: 'zh-TW'; block-size: auto; margin-block: 0px; margin-inline: 0px; -webkit-mask-box-image-source: none; -webkit-mask-box-image-slice: 0 fill; -webkit-mask-box-image-width: auto; -webkit-mask-box-image-outset: 0; -webkit-mask-box-image-repeat: stretch; -webkit-mask: none 0% 0% / auto repeat border-box border-box; -webkit-mask-composite: source-over; max-block-size: none; max-inline-size: none; min-block-size: 0px; min-inline-size: 0px; padding-block: 0px; padding-inline: 0px; -webkit-print-color-adjust: economy; -webkit-rtl-ordering: logical; -webkit-ruby-position: before; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-combine: none; -webkit-text-decorations-in-effect: none; -webkit-text-emphasis: none #000000; -webkit-text-emphasis-position: over right; -webkit-text-fill-color: #000000; -webkit-text-orientation: vertical-right; -webkit-text-security: none; -webkit-text-stroke: 0px #000000; -webkit-user-drag: none; -webkit-user-modify: read-only; -webkit-writing-mode: horizontal-tb; white-space: normal; widows: 2; width: auto; will-change: auto; word-break: normal; word-spacing: 0px; writing-mode: horizontal-tb; x: 0px; y: 0px; z-index: auto; zoom: 1; border: 0px none #000000;" xml:lang="ZH-TW"><span class="NormalTextRun BCX9 SCXO196160310" style="background-color: inherit;">埠號</span></span>)</p>
+<p></p>
+<p><span data-contrast="auto"><span>cd s, cd cmsimde, git pull origin master</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> 更新版本(如果有改過密碼要把舊的config刪掉)</span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>python3 server.py</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> 執行server<br/></span></p>
+<p><span></span></p>
+<p><span>如果server不能執行</span></p>
+<p>ps axo pid.comm.user</p>
+<p>可以查詢到以執行server<span><br/></span></p>
+<p><span data-contrast="auto"><span>kill -9 111919</span></span><span> </span></p>
+<p><span>可以殺掉自己的server</span></p>
+<p><span></span></p>
+<p><span data-contrast="auto"><span>https://stud.cycu.org:8xxx</span></span><span data-contrast="auto">  進到自己的網頁<br/></span></p>
+<p><span data-contrast="auto"><span> 8xxx每個人都有專屬的</span></span><span> <br/></span></p>
+<p><span>要把proxy關掉</span></p>
+<p></p>
+<p></p><h2>w7</h2>
+<p>老師檢查網頁處理問題</p><h2>w8</h2>
+<p>期中考</p>
+<p>講解畫圖的程式</p>
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
-<div id="brython_div2"></div>
-<!-- editor2 結束 --><hr/>
+<!-- editor2 結束 --><hr/></div>
