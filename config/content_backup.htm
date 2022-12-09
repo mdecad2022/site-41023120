@@ -1,9 +1,9 @@
 <h1>About</h1>
 <p>41023120</p>
-<p>倉儲: https://github.com/mdecad2022/site-41023120</p>
-<p>網頁: https://mdecad2022.github.io/site-41023120/content/index.html</p>
+<p>倉儲: <a href="https://github.com/mdecad2022/site-41023120">https://github.com/mdecad2022/site-41023120</a></p>
+<p>網頁: <a href="https://mdecad2022.github.io/site-41023120/content/index.html">https://mdecad2022.github.io/site-41023120/content/index.html</a></p>
 <p></p>
-<p>https://stud.cycu.org:8146</p>
+<p><a>https://stud.cycu.org:8146</a></p>
 <h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
@@ -291,10 +291,6 @@ doc["aitetris"].bind("click", aitetris.do)
 <p>另外則是利用 pip install flask flask_cors bs4 lxml pelican markdown gevent 安裝 cmsimde 所需模組, 與上述近端改版的差異是: 無需安裝 <a href="https://www.leoeditor.com/">leo</a> 與 pyopenssl, 因為系統是在雲端 Replit 的主機上執行, 目前還無法在 <a href="https://replit.com/">Replit</a> 系統上使用 <a href="https://www.leoeditor.com/">leo</a>, 也無需自行配置近端伺服器的 SSL.</p>
 <p>一旦將動態網站配置到 <a href="https://replit.com/">Replit</a> 之後, 可以將動態網頁改版內容, 同步到對應的 Github 倉儲, 主要利用倉儲的 <a href="https://pages.github.com/">Github Pages</a> 伺服靜態網頁</p>
 <h1>HW</h1>
-<h2>w1</h2>
-<p></p>
-<p></p>
-<p>中秋放假</p>
 <h2>w2</h2>
 <p>簡單說明有關課程的相關規劃與期程安排</p>
 <h2>w3</h2>
@@ -366,7 +362,7 @@ doc["aitetris"].bind("click", aitetris.do)
 <p><span data-contrast="auto"><span>https://stud.cycu.org:8xxx</span></span><span data-contrast="auto">  進到自己的網頁<br/></span></p>
 <p><span data-contrast="auto"><span> 8xxx每個人都有專屬的</span></span><span> <br/></span></p>
 <p><span>要把proxy關掉</span></p>
-<h3><span>hw<br/></span></h3>
+<h3>hw</h3>
 <p><span style="color: #000000; font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">零件一練習wink影片</span></p>
 <script>
 var winkVideoData1 = {
@@ -409,7 +405,6 @@ var winkVideoData1 = {
 <p></p>
 <p></p>
 <p></p>
-<h2>w11</h2>
 <!-- 導入 brython 程式庫 -->
 <p>
 <script src="/static/brython.js"></script>
@@ -478,27 +473,43 @@ def run():
 # 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
 doc['kw_run'].bind('click', Ace.run)
 doc['kw_show_console'].bind('click', Ace.show_console)
-doc['kw_clear_console'].bind('click', Ace.clear_console)
-doc['clear_bd'].bind('click', clear_bd)
-# 呼叫函式執行
-run()
+doc['kw_clear_console'].bind('click', Ace.clear_consol<br>
 </script>
 </p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<div id="kw_editor" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
-<!-- 存擋表單開始 --><form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form><!-- 存擋表單結束 -->
-<p></p>
-<!-- 執行與清除按鈕開始 -->
-<p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
-<!-- 執行與清除按鈕結束 -->
-<p></p>
-<!-- 程式執行 ouput 區 -->
-<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console"></textarea></div>
-<!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
-<div id="brython_div"></div>
-<!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
-<p></p>
+<!-- 存擋表單開始 --><!-- 存擋表單結束 --><!-- 執行與清除按鈕開始 --><!-- 執行與清除按鈕結束 --><!-- 程式執行 ouput 區 --><!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 --><!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
 <h2>w12</h2>
 <p>考試</p>
-<!-- editor2 結束 --></div>
+<!-- editor2 結束 -->
+<h2>w14</h2>
+<p></p>
+<h3>Solvespace</h3>
+<p><span style="color: #000000; font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+<script>
+var winkVideoData2 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+</span></p>
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData2" height="630" muted="true" width="1008">
+<source src="./../downloads/wink影片/winksolvespace.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressLeftClass">
+<h3 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Web', sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">Onshape</h3>
+</div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+</div>
